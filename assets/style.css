@@ -16,10 +16,6 @@ section {
     padding-top: 0px;
   }
 
-.navbar-brand {
-    padding-left: 50%;
-}
-
 .rows {
     /*display: flex;
     */
@@ -28,14 +24,11 @@ section {
     border-radius: 5px;
     border-width: 5px;
     margin: 20px;
+    margin-bottom: 0%;
 }
 
 .title {
     padding-left: 20px;
     font-size: larger;
-    
-}
-
-.current-weather {
     
 }
