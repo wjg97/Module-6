@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href="./assets/style.css" />
     <!-- CSS only -->
+    <link rel='stylesheet' href="./assets/style.css" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
 integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
 crossorigin="anonymous">
@@ -22,7 +22,7 @@ crossorigin="anonymous">
     </header>
 
     <div class="rows">
-        <!-- Beginning of col 1 in row 1 -->
+        <!--Contains The body-->
         <div class="col-12 bg-info">
           <h5>Search for a City:</h5> 
           <div class="input-group mb-2">
@@ -31,61 +31,18 @@ crossorigin="anonymous">
               <button id ="search-city" class="btn btn-outline-secondary bg-primary" type="button"><ion-icon name="search-outline"></ion-icon>Search</button>
             </div>
         </div>   
-  
+    
+    <!--City List-->    
     <section style="width: 150px;" class="col-4 m-2 bg-warning" id="City-Placehold"></section>
     
-    
-    <div id ="weather-box" class="row">
-     <!--<div class="card-body">
-          <h5 class="card-title">Current Weather</h5>
-          <p class="card-text">Date</p>
-          <p>Temp</p>
-          <p>Humidity</p>
-          <p>Wind Speed</p>
-        </div>
-      </div>
-    -->
+    <!--Weather Boxes-->
+    <article id ="weather-box" class="row"></article>
 
     <div style="padding-left: 50%;" class="title">Five Day Forcast</div>
     <div style="padding-left: 21%;" id="boxes" class="row">
         <div class="col-2 m-2 bg-info bottom">
-         <!--   <h6 id="current-weather">date</h6>
-           
-            <p>temp</p>
-            <p>humidity</p>
-            <p>Wind Speed</p>
-        </div>
-        <div class="col-2 m-2 bg-secondary rows">
-            <h6>date</h6>
-           
-            <p>temp</p>
-            <p>humidity</p>
-            <p>Wind Speed</p>
-        </div>
-        <div class="col-2 m-2 bg-success rows">
-            <h6>date</h6>
-        
-            <p>temp</p>
-            <p>humidity</p>
-            <p>Wind Speed</p>
-        </div>
-        <div class="col-2 m-2 bg-danger rows">
-            <h6>date</h6>
-           
-            <p>temp</p>
-            <p>humidity</p>
-            <p>Wind Speed</p>
-        </div>
-        <div class="col-2 m-2 bg-primary rows">
-            <h6>date</h6>
-            
-            <p>temp</p>
-            <p>humidity</p>
-            <p>Wind Speed</p>
-        </div>
-    </div>
-</body>
-<!-- JavaScript Bundle with Popper -->
+
+<!-- JavaScript, jquery, Bootstrap-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="./assets/scrip.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 

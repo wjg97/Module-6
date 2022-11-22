@@ -10,6 +10,10 @@ section {
     margin: 20px;
 }
 
+article {
+    padding-left: 15%;
+}
+
 .navbar {
     text-align: center;
     padding: 20px;
@@ -17,8 +21,6 @@ section {
   }
 
 .rows {
-    /*display: flex;
-    */
     flex-wrap: wrap;
     border-style: solid;
     border-radius: 5px;
